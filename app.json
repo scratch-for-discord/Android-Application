@@ -22,7 +22,8 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.snowflakestudio.scratchfordiscord",
-      "versionCode": 1
+      "versionCode": 1,
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
