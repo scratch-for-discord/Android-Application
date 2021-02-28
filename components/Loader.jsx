@@ -6,7 +6,8 @@ export default function Loader({ message, showVersion }) {
     return (
         <View style={styles.container}>
             <Image source={Logo} style={styles.image} />
-            <Text style={styles.text}>{message || 'Scratch For Discord'}{showVersion && showVersion === 'true' ? ' - v1.0.2' : ''}</Text>
+            <Text style={styles.text}>{message || 'Scratch For Discord'}</Text>
+            <Text style={styles.version}>{showVersion && showVersion === 'true' ? 'v1.0.2' : ''}</Text>
         </View>
     )
 }
@@ -27,5 +28,9 @@ const styles = StyleSheet.create({
     image: {
         width: 100,
         height: 100
+    },
+    version: {
+        fontSize: 22,
+        textAlign: 'center'
     }
 });
