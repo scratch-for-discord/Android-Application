@@ -18,7 +18,7 @@ export default class App extends Component {
 			this.setState({
 				loading: false
 			});
-		}, 1500);
+		}, 2000);
 	}
 
 	render() {
@@ -27,13 +27,13 @@ export default class App extends Component {
 				<WebView 
 					source={{ uri: 'https://scratch-for-discord.netlify.app' }} 
 					style={{ marginTop: StatusBar.currentHeight }}
-					userAgent=""
+					userAgent=''
 					renderError={(name) => <Error message={name} />}
-					renderLoading={() => <Loader message="Loading..." />}
+					renderLoading={() => <Loader message='Loading...' showVersion='false' />}
 				/>
 			);
 		} else {
-			return <Loader message="Scratch For Discord" />;
+			return <Loader message='Scratch For Discord' showVersion='true' />;
 		}
 	}
 

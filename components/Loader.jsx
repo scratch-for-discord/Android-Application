@@ -1,12 +1,12 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image } from 'react-native';
-import Logo from "../assets/icon.png"
+import Logo from '../assets/icon.png'
 
-export default function Loader({ message }) {
+export default function Loader({ message, showVersion }) {
     return (
         <View style={styles.container}>
             <Image source={Logo} style={styles.image} />
-            <Text style={styles.text}>{message || 'Scratch For Discord'}</Text>
+            <Text style={styles.text}>{message || 'Scratch For Discord'}{showVersion && showVersion === 'true' ? ' - v1.0.2' : ''}</Text>
         </View>
     )
 }
