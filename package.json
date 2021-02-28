@@ -13,10 +13,24 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "11.0.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "scratch-for-discord",
+  "version": "1.0.0",
+  "description": "Scratch For Discord android app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/scratch-for-discord-android.git"
+  },
+  "author": "Snowflake107",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/scratch-for-discord-android/issues"
+  },
+  "homepage": "https://github.com/DevSnowflake/scratch-for-discord-android#readme"
 }

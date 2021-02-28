@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "scratchfordiscord",
-    "slug": "scratchfordiscord",
+    "name": "scratch-for-discord",
+    "slug": "scratch-for-discord",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
