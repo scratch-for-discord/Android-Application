@@ -1,13 +1,14 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image } from 'react-native';
 import Logo from '../assets/icon.png'
+import Constants from 'expo-constants'
 
 export default function Loader({ message, showVersion }) {
     return (
         <View style={styles.container}>
             <Image source={Logo} style={styles.image} />
             <Text style={styles.text}>{message || 'Scratch For Discord'}</Text>
-            <Text style={styles.version}>{showVersion && showVersion === 'true' ? 'v1.0.2' : ''}</Text>
+            <Text style={styles.version}>{showVersion && showVersion === 'true' ? `${Constants.manifest.version.startsWith('v') ? '' : 'v'}${Constants.manifest.version}` : ''}</Text>
         </View>
     )
 }

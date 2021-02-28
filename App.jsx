@@ -28,6 +28,7 @@ export default class App extends Component {
 					source={{ uri: 'https://scratch-for-discord.netlify.app' }} 
 					style={{ marginTop: StatusBar.currentHeight }}
 					userAgent=''
+					startInLoadingState={true}
 					renderError={(name) => <Error message={name} />}
 					renderLoading={() => <Loader message='Loading...' showVersion='false' />}
 				/>
