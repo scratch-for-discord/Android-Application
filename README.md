@@ -3,7 +3,7 @@ Android app for **[Scratch For Discord](https://scratch-for-discord.netlify.app)
 
 # Download
 ## Android
-**[Download](https://github.com/DevSnowflake/scratch-for-discord-android/releases/download/v1.0.4/scratch-for-discord-v1.0.4.apk)**
+**[Download from Play Store](https://play.google.com/store/apps/details?id=com.snowflakestudio.scratchfordiscord)**
 
 ## ioS
 **N/A**
